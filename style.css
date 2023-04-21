@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(185, 131, 236);   
+}
+.div4{
+    display: flex;
+    justify-content: center; 
+    border-bottom: 2px solid rgb(109, 101, 101);
+    margin-top: 20px; 
+    margin-right: 50px;   
+}
+.clock{       
+    color: rgb(49, 6, 6);
+    font-size: 200%;
+    border: 0px solid rgb(135, 122, 148);
+    border-radius: 6px;
+    background-color: rgb(223, 235, 231);
+}
+.average{
+    margin-top: 20px;
+    margin-left: 150px;
+    color: rgb(15, 36, 23);
+}
+.sumt{
+    margin-left: 580px;
+    margin-top: 10px;
+    color: rgb(128, 10, 39);
+    font-size:150%;
+    font-weight: bold;
+}
+.numav{
+    margin-left: 570px;
+    margin-top: 10px;
+    color: rgb(128, 10, 39);
+    font-size:150%;
+    font-weight: bold;  
+
+}
+.div1{
+    border-bottom: 2px solid rgb(109, 101, 101);
+    padding-bottom: 30px;
+}
+.div2{    
+    border-bottom: 2px solid rgb(109, 101, 101);
+    padding-bottom: 30px;
+}
+
+.button{
+    margin-left: 545px;
+    padding: 10px;
+    color: rgb(218, 218, 236);
+    background-color: rgb(110, 109, 109);
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.myP1{
+    margin-top: 10px;
+    margin-left: 560px;
+    color: rgb(25, 10, 158);
+    font-size: 150%;   
+}
+
+.button:hover{
+    background-color: rgba(189, 181, 174, 0.685);
+    transition:all ease;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 3px rgb(138, 135, 141);
+}
+.div3{
+    display: flex;
+    justify-content: center;   
+    border-bottom: 2px solid rgb(109, 101, 101);
+    padding-bottom: 30px;
+}
+.form1{
+    border: 5px solid rgb(141, 149, 155);
+    padding: 50px;
+    margin-right: 60px;
+     background-color: rgb(25, 120, 158); 
+  
+    
+}
+
+.error{   
+    font-size: 105%;
+    font-weight: bold;
+    background-color: rgb(25, 120, 158); 
+    color: rgb(43, 20, 20);
+   
+   
+
+}
+.hack{   
+    /* margin-top: 20px; */
+    background-color: rgb(255, 250, 254);
+    height: 25px;
+    width: 300px;
+    outline: none;
+   
+
+}
+.button2{
+    width: 300px;
+    height: 26px;    
+    padding: 2px;
+    color: rgb(218, 218, 236);
+    background-color: rgb(110, 109, 109);
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 2px; 
+
+}
+.button2:hover{
+    background-color: rgba(189, 181, 174, 0.685);
+    transition:all ease;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 3px rgb(119, 112, 126);
+}
